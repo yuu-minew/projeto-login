@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-/* Typical Device Breakpoints 
-------------------------------
-Celular: de 600px até 768px;
-Tablet: de 768px até 992px;
-Desktop: de 992px até 1200;
------------------------------
-*/
-
-/*  CONFIGURAÇÃO PARA TABLET */
 @media screen and (min-width: 768px) and (max-width:992px) {
     body, html{
         background-image: linear-gradient(180deg, #5f2c82, #49a09d);
@@ -17,7 +8,7 @@ Desktop: de 992px até 1200;
 
     section#login{
         width: 70vw;
-        height: 310px;
+        height: 330px;
     }
 
     section#login > div#img{
@@ -53,7 +44,6 @@ Desktop: de 992px até 1200;
     }
 }
 
-/* CONFIGURAÇÃO PARA DESKTOP */
 @media screen and (min-width:992px){
     body, html{
         background-image: linear-gradient(180deg, #5f2c82, #49a09d);

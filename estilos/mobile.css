@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-/* Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
-*/
-
 *{
     margin: 0px;
     padding: 0px;
@@ -78,7 +73,7 @@ div.caixa > input{
     border-radius: 8px;
     border: 0px;
     padding: 4px;
-    transform: translateY(-8px);
+    transform: translateY(-9px);
 }
 
 div.caixa > input:focus-within{
@@ -129,8 +124,10 @@ form > a{
     text-decoration: none;
     padding-top: 5px;
     margin-top: 5px;
+    color: black;
 }
 
 form > a:hover{
     background-color: #61d2ce;
+    color: white;
 }

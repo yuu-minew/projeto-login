@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <!-- Aqui vai a img na CSS -->
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="caixa">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="mail" id="email" required placeholder="Digite seu e-mail" autocomplete="email" maxlength="30">
+                        <label for="email">Login</label>
+                    </div>
+
+                    <div class="caixa">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="pwd" required minlength="8" maxlength="20" placeholder="sua senha" autocomplete="current-password">
+                        <label for="pwd">Senha</label>
+                    </div>
+
+                    <input type="submit" value="Entrar" id="ientrar">
+
+                    <a href="#">
+                        Esqueci a Senha &#x2709
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

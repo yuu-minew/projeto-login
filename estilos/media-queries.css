@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+------------------------------
+Celular: de 600px até 768px;
+Tablet: de 768px até 992px;
+Desktop: de 992px até 1200;
+-----------------------------
+*/
+
+/*  CONFIGURAÇÃO PARA TABLET */
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body, html{
+        background-image: linear-gradient(180deg, #5f2c82, #49a09d);
+        background-repeat: no-repeat;
+    }
+
+    section#login{
+        width: 70vw;
+        height: 310px;
+    }
+
+    section#login > div#img{
+        background-position: center center;
+        float: left;
+        width: 28%;
+        height: 100%;
+    }
+
+    section#form{
+        float: right;
+        width: 70%;
+    }
+
+    #form > p{
+        font-size: 1em;
+    }
+
+    form > a, form > input[type=submit]{
+        display: block;
+        float: right;
+        width: 70%;
+        margin-left: 5px;
+    }
+
+    div.caixa{
+        float: right;
+        display: block;
+    }
+
+    form > div.caixa{
+        width: 70%;
+    }
+}
+
+/* CONFIGURAÇÃO PARA DESKTOP */
+@media screen and (min-width:992px){
+    body, html{
+        background-image: linear-gradient(180deg, #5f2c82, #49a09d);
+        background-repeat: no-repeat;
+    }
+
+    section#login{
+        width: 950px;
+        height: 350px;
+    }
+
+    section#login > div#img{
+        background-position: center center;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#form{
+        float: left;
+        width: 50%;
+    }
+
+    #form > p{
+        font-size: 1.2em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    div.caixa{
+        width: 49%;
+        float: left;
+        display: block;
+    }
+
+    form > div.caixa{
+        width: 49%;
+    }
+
+    form > a, form > input[type=submit]{
+        display: block;
+        float: left;
+        width: 49%;
+    }
+}
